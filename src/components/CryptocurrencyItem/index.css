@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+
+.crypto-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.item-image-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.item-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.dollar-items {
+  display: flex;
+  align-items: center;
+}
+
+.usd-dollar {
+  font-family: 'Roboto';
+  width: 100px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.euro-dollar {
+  font-family: 'Roboto';
+  width: 100px;
+  text-align: right;
+  color: #ffffff;
+}
